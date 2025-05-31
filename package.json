@@ -1,8 +1,8 @@
 {
-  "name": "deleuze-chatbot",
+  "name": "bot-without-organs",
   "version": "1.0.0",
-  "description": "An AI chatbot based on Gilles Deleuze's L'Abécédaire interviews",
-  "homepage": "https://hamedyaghoobian.github.io/Deleuzebot",
+  "description": "Bot Without Organs - An AI exploration of Gilles Deleuze's L'Abécédaire interviews",
+  "homepage": "https://botwithoutorgans.github.io",
   "private": true,
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",

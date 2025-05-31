@@ -26,7 +26,7 @@ jobs:
     - name: Build project
       run: npm run build
       env:
-        PUBLIC_URL: /Deleuzebot
+        PUBLIC_URL: /
 
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
