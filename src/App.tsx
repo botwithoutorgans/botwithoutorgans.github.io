@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Settings as SettingsIcon, RotateCcw, Volume2, Github, Info } from 'lucide-react';
+import { Settings as SettingsIcon, RotateCcw, Github, Info } from 'lucide-react';
 import { ChatMessage } from './components/ChatMessage';
 import { ChatInput } from './components/ChatInput';
 import { TypingIndicator } from './components/TypingIndicator';
