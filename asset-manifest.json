@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://botwithoutorgans.github.io/static/css/main.47f3435b.css",
+    "main.js": "https://botwithoutorgans.github.io/static/js/main.f368ef1b.js",
+    "index.html": "https://botwithoutorgans.github.io/index.html",
+    "main.47f3435b.css.map": "https://botwithoutorgans.github.io/static/css/main.47f3435b.css.map",
+    "main.f368ef1b.js.map": "https://botwithoutorgans.github.io/static/js/main.f368ef1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47f3435b.css",
+    "static/js/main.f368ef1b.js"
+  ]
+}
