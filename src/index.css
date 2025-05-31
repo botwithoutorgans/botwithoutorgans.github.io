@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-deleuze-gray/30;
+  }
+  
+  body {
+    @apply bg-deleuze-dark text-deleuze-text font-sans;
+    line-height: 1.6;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .rhizome-bg {
+    background: 
+      radial-gradient(circle at 20% 80%, rgba(16, 185, 129, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
+  }
+  
+  .message-bubble {
+    @apply rounded-2xl px-4 py-3 max-w-[80%] break-words text-sm leading-relaxed;
+  }
+  
+  .user-message {
+    @apply bg-deleuze-accent text-white ml-auto;
+  }
+  
+  .ai-message {
+    @apply bg-deleuze-gray text-deleuze-text border border-deleuze-gray/50;
+  }
+  
+  .citation-link {
+    @apply inline-flex items-center gap-1 text-rhizome-blue hover:text-rhizome-purple transition-colors duration-200 text-sm underline decoration-dotted;
+  }
+  
+  .typing-indicator {
+    @apply flex space-x-1;
+  }
+  
+  .typing-dot {
+    @apply w-2 h-2 bg-deleuze-muted rounded-full animate-pulse;
+    animation-delay: calc(var(--delay) * 0.1s);
+  }
+  
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .glass-effect {
+    @apply bg-deleuze-charcoal/80 backdrop-blur-sm border border-deleuze-gray/30;
+  }
+  
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thumb-deleuze-gray {
+    scrollbar-color: #2d2d2d transparent;
+  }
+  
+  .scrollbar-track-transparent {
+    scrollbar-color: #2d2d2d transparent;
+  }
+} 
