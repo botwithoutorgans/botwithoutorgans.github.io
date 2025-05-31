@@ -221,11 +221,15 @@ What would you like to explore?`,
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <motion.div
-              whileHover={{ rotate: 360 }}
-              transition={{ duration: 0.8 }}
-              className="w-10 h-10 bg-gradient-to-br from-rhizome-purple to-rhizome-blue rounded-xl flex items-center justify-center"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+              className="w-10 h-10 bg-gradient-to-br from-rhizome-purple to-rhizome-blue rounded-xl flex items-center justify-center p-1.5"
             >
-              <Volume2 size={20} className="text-white" />
+              <img 
+                src="/icon.png" 
+                alt="Bot Without Organs"
+                className="w-full h-full object-contain filter brightness-0 invert"
+              />
             </motion.div>
             <div>
               <h1 className="text-xl font-bold text-deleuze-text">
